@@ -1,86 +1,83 @@
-body{
-    font-family: Arial, sans-serif;
-    margin:0;
-    background:#f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ET's Glove Relacing</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
-header{
-    background:#8B0000;
-    color:white;
-    padding:25px;
-    text-align:center;
-}
+<body>
 
-nav{
-    background:#333;
-    padding:10px;
-    text-align:center;
-}
+<header>
+<h1>ET's Glove Relacing</h1>
+<p>Restore Your Baseball & Softball Gloves</p>
+</header>
 
-nav a{
-    color:white;
-    margin:0 15px;
-    text-decoration:none;
-    font-weight:bold;
-}
+<nav>
+<a href="#services">Services</a>
+<a href="#pricing">Pricing</a>
+<a href="#contact">Contact</a>
+</nav>
 
-nav a:hover{
-    color:#ffd700;
-}
+<div class="hero">
+<h2>Bring Your Glove Back to Life</h2>
+<p>Professional relacing, cleaning, and break-in services</p>
+</div>
 
-.hero{
-    padding:60px;
-    text-align:center;
-    background:url("https://images.unsplash.com/photo-1508344928928-7165b67de128") center/cover;
-    color:white;
-}
+<div class="section" id="services">
+<h2>Services</h2>
+<p>I specialize in restoring baseball and softball gloves so they perform like new again. Whether your glove needs a full re-lace, conditioning, or break-in help, I’ve got you covered.</p>
+</div>
 
-.section{
-    padding:40px;
-    max-width:900px;
-    margin:auto;
-}
+<div class="section pricing" id="pricing">
+<h2>Service Pricing</h2>
 
-.pricing{
-    background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
-}
+<div class="price-item">
+<span>Fielding Glove Full Re-Lace</span>
+<span>$60</span>
+</div>
 
-.price-item{
-    display:flex;
-    justify-content:space-between;
-    padding:12px;
-    border-bottom:1px solid #ddd;
-}
+<div class="price-item">
+<span>First Base Mitt Full Re-Lace</span>
+<span>$70</span>
+</div>
 
-.price-item:last-child{
-    border-bottom:none;
-}
+<div class="price-item">
+<span>Catchers Mitt Full Re-Lace</span>
+<span>$80</span>
+</div>
 
-footer{
-    text-align:center;
-    padding:20px;
-    background:#333;
-    color:white;
-}
+<div class="price-item">
+<span>Cleaning & Conditioning</span>
+<span>$20</span>
+</div>
 
-/* Mobile Friendly */
-@media(max-width:600px){
+<div class="price-item">
+<span>Break-In Service</span>
+<span>$20</span>
+</div>
 
-.hero{
-padding:40px 20px;
-}
+<div class="price-item">
+<span>Lace Replacement</span>
+<span>Prices Vary</span>
+</div>
 
-.price-item{
-flex-direction:column;
-align-items:flex-start;
-}
+</div>
 
-nav a{
-display:block;
-margin:10px 0;
-}
+<div class="section" id="contact">
+<h2>Contact</h2>
+<p>If you want your glove relaced or restored, reach out!</p>
 
-}
+<p>Email: 0624ethyn@gmail.com</p>
+
+<p>Phone: (2620) 483 7314</p>
+
+</div>
+
+<footer>
+<p>© 2026 ET's Glove Relacing | Built for Ballplayers</p>
+</footer>
+
+</body>
+</html>
